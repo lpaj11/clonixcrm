@@ -1,3 +1,12 @@
-git add .
-git commit -m "Adicionando script de build"
-git push
+{
+    "name": "clonixcrm",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "devDependencies": {
+      "vite": "^4.5.12"
+    }
+  }
+  
